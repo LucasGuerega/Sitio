@@ -1421,7 +1421,7 @@
 
 		.\31 2u\28xsmall\29, .\31 2u\24\28xsmall\29 {
 			width: 100%;
-			clear: none;
+			clear:none;
 			margin-left: 0;
 		}
 
@@ -1571,6 +1571,9 @@
 	}
 
 	body {
+		background: #e9e9e9;
+	}
+	body.login {
 		background: #A16CE6;
 	}
 
@@ -1893,6 +1896,8 @@
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		width: 100%;
+		width: 259px;
+		height: 50px;
 	}
 
 		.flex.flex-2 {
@@ -2611,7 +2616,7 @@
 		button.alt,
 		.button.alt {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 3px #FFF;
+			box-shadow: inset 0 0 0 3px #A16CE6;
 			color: #fff !important;
 		}
 
@@ -2620,7 +2625,7 @@
 			input[type="button"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background-color: #7ec89e;
+				background-color: #A16CE6;
 			}
 
 			input[type="submit"].alt:active,
@@ -2628,7 +2633,7 @@
 			input[type="button"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background-color: #7ec89e;
+				background-color: #8642de;
 			}
 
 			input[type="submit"].alt.icon:before,
@@ -2653,7 +2658,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #7ec89e;
+				background-color: #A16CE6;
 			}
 
 			input[type="submit"].special:active,
@@ -2661,7 +2666,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #5ab884;
+				background-color: #8642de;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2841,8 +2846,8 @@
 		position: fixed;
 		right: 0;
 		top: 0;
-		background:  #A16CE6;
-		color: #daefe3;
+		background:  #e4e4e4;
+		color: #000000;
 		height: 100%;
 		max-width: 80%;
 		width: 20em;
@@ -2860,8 +2865,8 @@
 		}
 
 		#navPanel a:not(.close) {
-			border-top: solid 1px #8dcca9;
-			color: #daefe3;
+			border-top: solid 1px #000000;
+			color: #000000;
 			font-weight: 600;
 			display: block;
 			padding: 0.75em 0;
